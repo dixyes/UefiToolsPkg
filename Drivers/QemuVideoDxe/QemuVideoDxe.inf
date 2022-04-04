@@ -51,7 +51,7 @@
 [Packages]
   MdePkg/MdePkg.dec
   MdeModulePkg/MdeModulePkg.dec
-  OptionRomPkg/OptionRomPkg.dec
+  Drivers/OptionRomPkg/OptionRomPkg.dec
   OvmfPkg/OvmfPkg.dec
 
 [LibraryClasses]
