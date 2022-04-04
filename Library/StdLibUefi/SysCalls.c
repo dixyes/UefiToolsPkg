@@ -1294,6 +1294,7 @@ char
 *getcwd (char *buf, size_t size)
 {
   CONST CHAR16 *Cwd;
+  EFI_STATUS Status;
 
   if (size == 0 || buf == NULL) {
     errno = EINVAL;
@@ -1309,7 +1310,12 @@ char
     errno = ERANGE;
     return (NULL);
   }
-  return (UnicodeStrToAsciiStr(Cwd, buf));
+  Status = UnicodeStrToAsciiStrS(Cwd, buf, PATH_MAX);
+  if (EFI_ERROR(Status)) {
+    errno = ENOMEM;
+    return NULL;
+  }
+  return buf;
 }
 
 /** Change the current working directory.
@@ -1347,7 +1353,11 @@ chdir (const char *path)
         errno = ENOMEM;
         return -1;
       }
-      AsciiStrToUnicodeStr(path, UnicodePath);
+      Status = AsciiStrToUnicodeStrS(path, UnicodePath, PATH_MAX);
+      if (EFI_ERROR(Status)) {
+        errno = ENOMEM;
+        return -1;
+      }
       Status = gEfiShellProtocol->SetCurDir(NULL, UnicodePath);
       FreePool(UnicodePath);
       if (EFI_ERROR(Status)) {
