@@ -34,7 +34,6 @@
 #endif
 
 #include <sys/cdefs.h>
-__RCSID("$NetBSD: util.c,v 1.18 2014/07/14 21:56:03 christos Exp $");
 
 #include <sys/stat.h>
 #include <sys/types.h>

@@ -33,13 +33,6 @@
  */
 
 #include <sys/cdefs.h>
-#if defined(LIBC_SCCS) && !defined(lint)
-#if 0
-static char sccsid[] = "@(#)swab.c	8.1 (Berkeley) 6/4/93";
-#else
-__RCSID("$NetBSD: swab.c,v 1.18 2011/01/04 17:14:07 martin Exp $");
-#endif
-#endif /* LIBC_SCCS and not lint */
 
 #include <assert.h>
 #include <unistd.h>

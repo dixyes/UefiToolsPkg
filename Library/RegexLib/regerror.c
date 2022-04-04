@@ -72,13 +72,6 @@
  */
 
 #include <sys/cdefs.h>
-#if defined(LIBC_SCCS) && !defined(lint)
-#if 0
-static char sccsid[] = "@(#)regerror.c	8.4 (Berkeley) 3/20/94";
-#else
-__RCSID("$NetBSD: regerror.c,v 1.23 2007/02/09 23:44:18 junyoung Exp $");
-#endif
-#endif /* LIBC_SCCS and not lint */
 
 /* #include "namespace.h" */
 #include <sys/types.h>

@@ -34,7 +34,6 @@
 #endif
 
 #include <sys/cdefs.h>
-__RCSID("$NetBSD: getopt_long.c,v 1.27 2015/09/01 19:39:57 kamil Exp $");
 
 /* #include "namespace.h" */
 

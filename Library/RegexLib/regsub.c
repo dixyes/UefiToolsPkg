@@ -29,9 +29,6 @@
  * POSSIBILITY OF SUCH DAMAGE.
  */
 #include <sys/cdefs.h>
-#if defined(LIBC_SCCS) && !defined(lint)
-__RCSID("$NetBSD: regsub.c,v 1.3 2016/02/29 22:10:13 aymeric Exp $");
-#endif
 
 #include <sys/param.h>
 #include <ctype.h>

@@ -36,7 +36,6 @@
 #endif
 
 #include <sys/cdefs.h>
-__RCSID("$NetBSD: queue.c,v 1.5 2011/08/31 16:24:57 plunky Exp $");
 
 #include <sys/param.h>
 #include "queue.h"

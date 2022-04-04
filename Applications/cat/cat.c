@@ -37,16 +37,6 @@
 #endif
 
 #include <sys/cdefs.h>
-#if !defined(lint)
-__COPYRIGHT(
-"@(#) Copyright (c) 1989, 1993\
- The Regents of the University of California.  All rights reserved.");
-#if 0
-static char sccsid[] = "@(#)cat.c	8.2 (Berkeley) 4/27/95";
-#else
-__RCSID("$NetBSD: cat.c,v 1.47.20.1 2017/03/25 17:41:48 snj Exp $");
-#endif
-#endif /* not lint */
 
 #include <sys/param.h>
 #include <sys/stat.h>

@@ -40,7 +40,6 @@
 #endif
 
 #include <sys/cdefs.h>
-__RCSID("$NetBSD: fastgrep.c,v 1.5 2011/04/18 03:27:40 joerg Exp $");
 
 #include <limits.h>
 #include <stdbool.h>

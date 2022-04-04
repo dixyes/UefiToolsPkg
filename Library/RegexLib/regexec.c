@@ -72,13 +72,6 @@
  */
 
 #include <sys/cdefs.h>
-#if defined(LIBC_SCCS) && !defined(lint)
-#if 0
-static char sccsid[] = "@(#)regexec.c	8.3 (Berkeley) 3/20/94";
-#else
-__RCSID("$NetBSD: regexec.c,v 1.22 2012/03/13 21:13:43 christos Exp $");
-#endif
-#endif /* LIBC_SCCS and not lint */
 
 /*
  * the outer shell of regexec()

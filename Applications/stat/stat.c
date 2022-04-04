@@ -36,9 +36,6 @@
 #endif
 
 #include <sys/cdefs.h>
-#if !defined(lint)
-__RCSID("$NetBSD: stat.c,v 1.38 2013/01/03 13:28:41 dsl Exp $");
-#endif
 
 #if ! HAVE_NBTOOL_CONFIG_H
 /* #define HAVE_STRUCT_STAT_ST_FLAGS 1 */

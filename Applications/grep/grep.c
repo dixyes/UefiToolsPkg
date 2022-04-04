@@ -34,7 +34,6 @@
 #endif
 
 #include <sys/cdefs.h>
-__RCSID("$NetBSD: grep.c,v 1.12 2014/07/11 16:30:45 christos Exp $");
 
 #include <sys/stat.h>
 #include <sys/types.h>

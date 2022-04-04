@@ -66,10 +66,6 @@
 
 #include <sys/cdefs.h>
 
-#if defined(LIBC_SCCS) && !defined(lint)
-__RCSID("$NetBSD: strsuftoll.c,v 1.9 2011/10/22 22:08:47 christos Exp $");
-#endif /* LIBC_SCCS and not lint */
-
 #ifdef _LIBC
 #include "namespace.h"
 #endif

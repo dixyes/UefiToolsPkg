@@ -33,13 +33,6 @@
  */
 
 #include <sys/cdefs.h>
-#if defined(LIBC_SCCS) && !defined(lint)
-#if 0
-static char sccsid[] = "@(#)fnmatch.c	8.2 (Berkeley) 4/16/94";
-#else
-__RCSID("$NetBSD: fnmatch.c,v 1.26 2014/10/12 22:32:33 christos Exp $");
-#endif
-#endif /* LIBC_SCCS and not lint */
 
 /*
  * Function fnmatch() as specified in POSIX 1003.2-1992, section B.6.

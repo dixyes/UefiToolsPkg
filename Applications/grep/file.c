@@ -35,7 +35,6 @@
 #endif
 
 #include <sys/cdefs.h>
-__RCSID("$NetBSD: file.c,v 1.7 2011/04/18 22:46:48 joerg Exp $");
 
 #include <sys/param.h>
 #include <sys/types.h>

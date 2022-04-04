@@ -34,13 +34,6 @@
  */
 
 #include <sys/cdefs.h>
-#ifndef lint
-#if 0
-static char sccsid[] = "@(#)conv.c	8.3 (Berkeley) 4/2/94";
-#else
-__RCSID("$NetBSD: conv.c,v 1.17 2003/08/07 09:05:10 agc Exp $");
-#endif
-#endif /* not lint */
 
 #include <sys/param.h>
 #include <sys/time.h>

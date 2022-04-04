@@ -34,7 +34,6 @@
 #endif
 
 #include <sys/cdefs.h>
-__RCSID("$NetBSD: reallocarr.c,v 1.5 2015/08/20 22:27:49 kamil Exp $");
 
 /* #include "namespace.h" */
 #include <errno.h>

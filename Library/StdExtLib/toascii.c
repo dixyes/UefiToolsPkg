@@ -37,9 +37,6 @@
  */
 
 #include <sys/cdefs.h>
-#if defined(LIBC_SCCS) && !defined(lint)
-__RCSID("$NetBSD: toascii.c,v 1.3 2012/06/25 22:32:44 abs Exp $");
-#endif /* LIBC_SCCS and not lint */
 
 #include <ctype.h>
 
