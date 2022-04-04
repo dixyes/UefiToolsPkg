@@ -24,6 +24,10 @@ Other tools [around the Web](OTHER.md).
 Building
 --------
 
+Needs edk2, edk2-platforms, edks-libc, edk2-platforms:
+
+    $ export PACKAGES_PATH=`realpath edk2`:`realpath edk2-libc`:`realpath edk2-platforms`:`realpath UefiToolsPkg`
+
 Assuming you have EDK2 (http://www.tianocore.org/edk2/)
 all configured and capable of producing builds for your
 target architecture:
